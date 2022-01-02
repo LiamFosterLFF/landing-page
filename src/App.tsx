@@ -18,15 +18,15 @@ const App = () => {
   return (
     <Box className="App" sx={{ width: "100%", height: "100%" }}>
       <Layout>
-        <Clickthrough />
-        <Contact />
+        <Hero />
         <Features />
         <Gallery />
-        <Headshots />
-        <Hero />
         <Icons />
+        <Headshots />
+        <Clickthrough />
         <Pricing />
         <Testimonials />
+        <Contact />
       </Layout>
     </Box>
   );
