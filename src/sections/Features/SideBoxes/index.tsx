@@ -1,6 +1,5 @@
 import { Box } from "@mui/material";
-import IconBox from "./IconBox";
-import { IBox } from "../Ibox";
+import { IconBox, IBox } from "./IconBox";
 import LocalDiningIcon from "@mui/icons-material/LocalDining";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import AllInclusiveIcon from "@mui/icons-material/AllInclusive";

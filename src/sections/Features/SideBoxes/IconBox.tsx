@@ -1,6 +1,12 @@
 import { Box, Typography } from "@mui/material";
-import { IBox } from "../Ibox";
-const IconBox: React.FC<IBox> = ({ icon, title, subtext }) => {
+
+export interface IBox {
+  icon: React.ReactNode;
+  title: string;
+  subtext: string;
+}
+
+export const IconBox: React.FC<IBox> = ({ icon, title, subtext }) => {
   return (
     <Box>
       {icon}
@@ -9,4 +15,3 @@ const IconBox: React.FC<IBox> = ({ icon, title, subtext }) => {
     </Box>
   );
 };
-export default IconBox;
