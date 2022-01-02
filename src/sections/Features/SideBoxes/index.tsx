@@ -1,24 +1,26 @@
 import { Box } from "@mui/material";
 import IconBox from "./IconBox";
 import { IBox } from "../Ibox";
-import EmailIcon from "@mui/icons-material/Email";
+import LocalDiningIcon from "@mui/icons-material/LocalDining";
+import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
+import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 
 const SideBoxes = () => {
   const boxes: IBox[] = [
     {
-      icon: <EmailIcon />,
+      icon: <LocalDiningIcon />,
       title: "A single source of truth",
       subtext:
         "When you add work to you Slate calendar we automatically calculate useful insights",
     },
     {
-      icon: <EmailIcon />,
+      icon: <EmojiEmotionsIcon />,
       title: "Intuitive interface",
       subtext:
         "When you add work to your Slate calendar we automatically calculate useful insights",
     },
     {
-      icon: <EmailIcon />,
+      icon: <AllInclusiveIcon />,
       title: "Or with rules",
       subtext:
         "When you add work to you Slate calendar we automatically calculate useful insights",
