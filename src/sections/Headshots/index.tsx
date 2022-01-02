@@ -1,5 +1,14 @@
+import { Box, Typography } from "@mui/material";
+import Avatars from "./Avatars";
+
 const Headshots = () => {
-  return <div>Headshots</div>;
+  const title = "About us";
+  return (
+    <Box>
+      <Typography>{title}</Typography>
+      <Avatars />
+    </Box>
+  );
 };
 
 export default Headshots;
