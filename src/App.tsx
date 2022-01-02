@@ -1,3 +1,5 @@
+import { Box } from "@mui/material";
+
 //Component Imports
 import Layout from "./components/Layout";
 
@@ -14,7 +16,7 @@ import Testimonials from "./sections/Testimonials";
 
 const App = () => {
   return (
-    <div className="App">
+    <Box className="App" sx={{ width: "100%", height: "100%" }}>
       <Layout>
         <Clickthrough />
         <Contact />
@@ -26,7 +28,7 @@ const App = () => {
         <Pricing />
         <Testimonials />
       </Layout>
-    </div>
+    </Box>
   );
 };
 
