@@ -12,6 +12,7 @@ const Header = () => {
         display: "flex",
         justifyContent: "space-evenly",
         backgroundColor: "primary.light",
+        color: "typography.main",
       }}
     >
       <PageIcon />

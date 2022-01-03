@@ -1,5 +1,14 @@
 import { createTheme } from "@mui/material/styles";
 
+declare module "@mui/material/styles" {
+  interface Palette {
+    typography: Palette["primary"];
+  }
+  interface PaletteOptions {
+    typography: PaletteOptions["primary"];
+  }
+}
+
 export const theme = createTheme({
   palette: {
     primary: {
@@ -8,6 +17,9 @@ export const theme = createTheme({
     },
     secondary: {
       main: "#ffffff",
+    },
+    typography: {
+      main: "red",
     },
   },
 });
