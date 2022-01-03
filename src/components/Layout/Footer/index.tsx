@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import Links from "./Links";
 import Map from "./Map";
-import Contacts from "./Contacts";
+import Contacts from "../../Contacts";
 const Footer = () => {
   return (
     <Box
