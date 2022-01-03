@@ -7,7 +7,12 @@ import Button from "../../../components/Button";
 const Header = () => {
   return (
     <Box
-      sx={{ width: "100%", display: "flex", justifyContent: "space-evenly" }}
+      sx={{
+        width: "100%",
+        display: "flex",
+        justifyContent: "space-evenly",
+        backgroundColor: "primary.light",
+      }}
     >
       <PageIcon />
       <Links />
