@@ -40,7 +40,7 @@ const ImageGroup = () => {
       {itemData.map((item: item) => (
         <ImageListItem key={item.imgURL}>
           <img
-            src={`${process.env.PUBLIC_URL}/img/${item.imgURL}.jpg`}
+            src={`${process.env.PUBLIC_URL}/img/galleryPhotos/${item.imgURL}.jpg`}
             alt={item.title}
             loading="lazy"
           />
